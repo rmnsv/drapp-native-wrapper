@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Drapp.Native</RootNamespace>
+    <AssemblyName>Drapp.Native</AssemblyName>
+  </PropertyGroup>
+
+  <Import Project="..\DrappNative.Shared\DrappNative.Shared.projitems" Label="Shared" />
+
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata>
+		<id>DrappNative</id>
+		<version>$version$</version>
+		<authors>Roman Samokhvalov</authors>
+		<description>C++ Wrapper Library for Drapp solution</description>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<copyright>Copyright 2021</copyright>
+	</metadata>
+	<files>
+		<!-- Android -->
+		<file src="DrappNative.Android/bin/Release/Drapp.Native.dll" target="lib/MonoAndroid81/Drapp.Native.dll" />
+		<file src="DrappNative.Android/bin/Release/Drapp.Native.pdb" target="lib/MonoAndroid81/Drapp.Native.pdb" />
+
+		<!-- iOS -->
+		<!-- Coming soon :) -->
+		<!--
+		<file src="DrappNative.iOS/bin/Release/Drapp.Native.dll" target="lib/Xamarin.iOS10/Drapp.Native.dll" />
+		<file src="DrappNative.iOS/bin/Release/Drapp.Native.pdb" target="lib/Xamarin.iOS10/Drapp.Native.pdb" />
+		-->
+
+		<!-- netstandard2.0 -->
+		<file src="DrappNative.Standard/bin/Release/netstandard2.0/Drapp.Native.dll" target="lib/netstandard2.0/Drapp.Native.dll" />
+		<file src="DrappNative.Standard/bin/Release/netstandard2.0/Drapp.Native.pdb" target="lib/netstandard2.0/Drapp.Native.pdb" />
+	</files>
+</package>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>a5f09ca7-3386-4c20-8b9f-9a8a5683ff0c</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>DrappNative</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)DrumMath.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DrumMathSafeHandle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DrumMathWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoundGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoundGeneratorSafeHandle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoundGeneratorWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoundMixer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoundMixerSafeHandle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoundMixerWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoundProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoundProviderWrapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoundProviderSafeHandle.cs" />
+  </ItemGroup>
+</Project>

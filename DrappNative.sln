@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Drapp.Native.Shared", "DrappNative.Shared\Drapp.Native.Shared.shproj", "{A5F09CA7-3386-4C20-8B9F-9A8A5683FF0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drapp.Native.Standard", "DrappNative.Standard\Drapp.Native.Standard.csproj", "{3F652E85-5A1C-4B6A-A65C-50DE0E8D15CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drapp.Native.iOS", "DrappNative.iOS\Drapp.Native.iOS.csproj", "{8210C03D-9397-4419-AB46-DA9D77B2A787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drapp.Native.Android", "DrappNative.Android\Drapp.Native.Android.csproj", "{906C32C7-C72F-4BEF-9690-16CE58ED356E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{3238C7AE-C5C3-4293-8F1C-A463E301083A}"
+	ProjectSection(SolutionItems) = preProject
+		Drapp.Native.nuspec = Drapp.Native.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DrappNative.Shared\DrappNative.Shared.projitems*{3f652e85-5a1c-4b6a-a65c-50de0e8d15cb}*SharedItemsImports = 5
+		DrappNative.Shared\DrappNative.Shared.projitems*{8210c03d-9397-4419-ab46-da9d77b2a787}*SharedItemsImports = 4
+		DrappNative.Shared\DrappNative.Shared.projitems*{906c32c7-c72f-4bef-9690-16ce58ed356e}*SharedItemsImports = 4
+		DrappNative.Shared\DrappNative.Shared.projitems*{a5f09ca7-3386-4c20-8b9f-9a8a5683ff0c}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F652E85-5A1C-4B6A-A65C-50DE0E8D15CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F652E85-5A1C-4B6A-A65C-50DE0E8D15CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F652E85-5A1C-4B6A-A65C-50DE0E8D15CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F652E85-5A1C-4B6A-A65C-50DE0E8D15CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8210C03D-9397-4419-AB46-DA9D77B2A787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8210C03D-9397-4419-AB46-DA9D77B2A787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8210C03D-9397-4419-AB46-DA9D77B2A787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8210C03D-9397-4419-AB46-DA9D77B2A787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906C32C7-C72F-4BEF-9690-16CE58ED356E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906C32C7-C72F-4BEF-9690-16CE58ED356E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906C32C7-C72F-4BEF-9690-16CE58ED356E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906C32C7-C72F-4BEF-9690-16CE58ED356E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {816697C6-1B00-44A3-A3FD-DAAF92045138}
+	EndGlobalSection
+EndGlobal
